@@ -14,3 +14,7 @@ It will directly open VLC Media Player and directly stream the video/audio file 
 
 It's simple implementation of windows URL Scheme with VLC Media Player !
 (Never found a such solution on the net, the reason why i've developped that !)
+
+Note :
+----------
+ConsoleApplication1 only contain the linker itself. It's embeded in the installer `Media_streamingVLC.exe` (that also register the URL Scheme using regedit)
