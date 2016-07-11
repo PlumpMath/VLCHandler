@@ -17,5 +17,5 @@ It's simple implementation of windows URL Scheme with VLC Media Player !
 
 Note :
 ----------
-* It need a proper installation of VLC Media player
+* It needs a proper installation of VLC Media player
 * ConsoleApplication1 only contain the linker itself. It's embeded in the installer `Media_streamingVLC.exe` (that also register the URL Scheme using regedit)
