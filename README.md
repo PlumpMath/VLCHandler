@@ -3,8 +3,8 @@ Small windows app in C# to handle vlchandler:// URL (open vlc from web browser)
 
 Setup : 
 --------------------------
-*Open `Media_streamingVLC.exe`
-*Follow instructions to install the VLC handler
+* Open `Media_streamingVLC.exe`
+* Follow instructions to install the VLC handler
 
 Usage : 
 -------------------------
@@ -17,4 +17,5 @@ It's simple implementation of windows URL Scheme with VLC Media Player !
 
 Note :
 ----------
-ConsoleApplication1 only contain the linker itself. It's embeded in the installer `Media_streamingVLC.exe` (that also register the URL Scheme using regedit)
+* It need a proper installation of VLC Media player
+* ConsoleApplication1 only contain the linker itself. It's embeded in the installer `Media_streamingVLC.exe` (that also register the URL Scheme using regedit)
